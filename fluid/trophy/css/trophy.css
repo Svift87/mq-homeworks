@@ -5,10 +5,10 @@
 
 .trophy {
   width: 32%;
-  margin: 0 auto;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 30px;
 }
 
 .trophy:nth-child(3n+2) {
-  margin-top: 2.35%;
-  margin-bottom: 2.35%;
 }
