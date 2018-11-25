@@ -11,4 +11,5 @@
 }
 
 .trophy:nth-child(3n+2) {
+    padding: 10px 40px 80px;
 }
