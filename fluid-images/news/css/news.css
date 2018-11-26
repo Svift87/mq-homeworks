@@ -1,5 +1,5 @@
 .container {
-    width: 70.27818%;
+    width: 70.28%;
 	padding: 15px 10px;
     box-sizing: border-box;
     min-width: 768px;
@@ -7,7 +7,7 @@
 }
 
 .card {
-	width: calc(50% - 20px);
+	width: calc(50% - 10px);
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
