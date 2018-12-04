@@ -1,0 +1,7 @@
+@media (min-width: 640px) {
+    .news__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }    
+}

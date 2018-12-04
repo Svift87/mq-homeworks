@@ -1,0 +1,20 @@
+.product__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+    .products {
+        display: flex;
+    }
+
+    .product {
+        width: 32%;
+        margin: 0;
+        height: 100%;
+    }
+
+    .product:nth-child(3n+2) {
+        margin: 0 2%;
+    }
+}
