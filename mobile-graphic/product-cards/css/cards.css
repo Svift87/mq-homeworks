@@ -1,6 +1,7 @@
 .product__footer {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 @media (min-width: 769px) {
