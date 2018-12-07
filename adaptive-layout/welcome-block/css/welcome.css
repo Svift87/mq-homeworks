@@ -1,7 +1,5 @@
 .header {
-  font-size: 16px;
   background-color: #4e4646;
-  background-image: url("../img/netology_1900.jpg");    
 }
 
 .logo {
@@ -9,6 +7,33 @@
   margin-bottom: 2em;
 }
 
-.header__slogan {
-  font-size: 3em;
+@media (min-width: 1301px) {
+  .header {
+    font-size: 16px; 
+    background-image: url("../img/netology_1900.jpg");
+  }
+    
+  .header__slogan {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1300px) {
+  .header {
+    background-image: url("../img/netology_1200.jpg");
+  }
+    
+  .header__slogan {
+    font-size: 2.25em;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url("../img/netology_600.jpg");
+  }
+    
+  .header__slogan {
+    font-size: 1.5em;
+  }
 }
